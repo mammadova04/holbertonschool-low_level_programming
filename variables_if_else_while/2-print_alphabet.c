@@ -12,8 +12,12 @@
 int main(void)
 {
 
-	srand(time(0));
-	/* your code goes there */
-	printf("abcdefghijklmnopqrstuvwxyz\n");
+	char c;
+
+	for (c = 'a'; c < 'z'; c++)
+	{
+		putchar(c);
+	}
+	putchar ('\n');
 	return (0);
 }
