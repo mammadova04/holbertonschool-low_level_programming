@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * _strlen - Entry point
+ * _puts - Entry point
  *
- * @s: variable
+ * @str: variable
  * Return: Always 0.
  */
 void _puts(char *str)
