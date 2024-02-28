@@ -23,4 +23,6 @@ void print_triangle(int size)
 		}
 		_putchar('\n');
 	}
+	if (size < 1)
+		_putchar('\n');
 }
