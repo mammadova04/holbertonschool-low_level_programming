@@ -22,8 +22,11 @@ char *_strdup(char *str)
 	if (s == NULL)
 		return (NULL);
 
-	for (i = 0; i < size; i++)
+	while (i < size)
+	{
 		*(s + i) = *(str + i);
+		i++;
+	}
 
 	*(s + size) = 0;
 	return (s);
