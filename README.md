@@ -1,1 +1,1 @@
-C - Structures, typedef
+holbertonschool-low_level_programmi
