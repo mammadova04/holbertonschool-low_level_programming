@@ -15,7 +15,7 @@ int (*get_op_func(char *s))(int n, int m)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	int i;
+	int i = 0;
 
 	while (i < (int)(sizeof(ops) / sizeof(op_t)))
 	{
