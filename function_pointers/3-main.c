@@ -19,8 +19,8 @@ int main(int argc, char **argv)
 		exit(98);
 	}
 	m = atoi(argv[1]), n = atoi(argv[3]);
-	if ((*op != '*' && *op != '/' && *op != '+' && *op != '-' && *op != '%') || 
-			strlen(op) > 1)
+	if ((*op != '*' && *op != '/' && *op != '+' && *op != '-' && *op != '%')
+			|| strlen(op) > 1)
 	{
 		printf("Error\n");
 		exit(99);
